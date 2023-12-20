@@ -20,7 +20,7 @@ spring:
       ddl-auto: create
     show-sql: 'true'
   datasource:
-    password: 
+    password: 1234
     username: root
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${MYSQL_DB:vehicles-service-db}?createDatabaseIfNotExist=true
   servlet:
