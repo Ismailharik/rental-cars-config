@@ -1,5 +1,5 @@
 spring:
-  security:
+#  security:
     # I will reove this just temporary
     # oauth2:
     #   resource-server:
@@ -43,7 +43,7 @@ logging:
   level:
     org:
       springframework:
-        security: DEBUG
+        #security: DEBUG
         web:
           servlet:
             DispatcherServlet: DEBUG
